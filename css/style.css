@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color:#242B33;
+}
+
+
+li {
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+
+
+header {
+    background: url(/bg.j.png)center/cover;
+    height: 100vh;
+}
+
+.header-title {
+    color: #D4C17F;
+    font-family: 'Playfair Display', serif;
+    margin-top: 130px;
+}
+
+
+
+.main {
+    background-color: #242B33;
+    height: 50vh;
+}
+
+
+.page {
+    margin-bottom: 100px;
+}
+
+
+.page-title {
+    color: #D4C17F;
+
+}
+
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+h1 {
+    color: #D4C17F;
+}
+
+
+.cont {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+button {
+    padding: 15px 50px;
+    margin: 50px;
+    background-color:rgba(128, 128, 128, 0.356);
+    color:#fff;
+    border:0;
+    transition: background-color 0.3s linear;
+}
+
+
+button:hover {
+    background-color:#D4C17F;
+}
+
+.list {
+    text-align: center;
+}
+
+
+.footer {
+    background-color:
+    #2D343C;
+}
+
+
+.body {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+
+}
+
